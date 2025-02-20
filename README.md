@@ -53,9 +53,9 @@ The DOM (Document Object Model) is a programming interface that represents the s
 
 ## Tree Structure:
 
-The HTML document is structured as a tree, where each element (like <div>, <p>, <h1>, etc.) is a node.
-<!-- The root node of the DOM is the <html> element.
-Child nodes include <head> and <body>, and they further contain other elements. -->
+<!-- The HTML document is structured as a tree, where each element (like <div>, <p>, <h1>, etc.) is a node.
+ The root node of the DOM is the <html> element.
+  Child nodes include <head> and <body>, and they further contain other elements. -->
 
 # What is a Node in HTML?
 In HTML, a node is any individual element, attribute, or text inside the Document Object Model (DOM) tree. The entire HTML document is made up of different types of nodes.
@@ -76,6 +76,7 @@ element.style.color = "red" → Changes an element’s style.
 
 ## Types of DOM
 Regular (Browser) DOM: The actual structure of the HTML document.
+
 Virtual DOM (React-specific): A lightweight copy of the DOM that React uses to optimize updates.
 
 ## Regular DOM 
